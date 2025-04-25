@@ -1,1 +1,105 @@
+#include <SoftwareSerial.h>
+#include <Servo.h>
 
+Servo myServo;
+SoftwareSerial mySerial(53, 52); // RX, TX
+
+// Motor A Pins
+int enA = 7;
+int in1 = 6;
+int in2 = 5;
+
+// Motor B Pins
+int enB = 2;
+int in3 = 4;
+int in4 = 3;
+
+// Speed Settings
+int MotorSpeed1 = 100;
+int MotorSpeed2 = 100;
+int ZeroSpeed = 0;
+
+String message = "";
+
+void setup() {
+  myServo.attach(9);
+  Serial.begin(9600);
+  mySerial.begin(9600);
+  Serial.println("Initializing...");
+  Serial.println("Device started, ready to pair");
+
+  // Set motor control pins as OUTPUT
+  pinMode(enA, OUTPUT);
+  pinMode(enB, OUTPUT);
+  pinMode(in1, OUTPUT);
+  pinMode(in2, OUTPUT);
+  pinMode(in3, OUTPUT);
+  pinMode(in4, OUTPUT);
+}
+
+void loop() {
+  if (mySerial.available()) {
+    char incoming_char = mySerial.read();
+    
+    if (incoming_char != '\n') {
+      message += incoming_char;
+    } else {
+      message.trim(); // Remove any extra whitespace/newline
+      Serial.print("Received: ");
+      Serial.println(message);
+
+      // Process the command
+      if (message == "F" || message == "f") {
+        // Forward
+        digitalWrite(in1, HIGH);
+        digitalWrite(in2, LOW);
+        digitalWrite(in3, HIGH);
+        digitalWrite(in4, LOW);
+        analogWrite(enA, MotorSpeed1);
+        analogWrite(enB, MotorSpeed2);
+      } else if (message == "S" || message == "s") {
+        // Stop
+        analogWrite(enA, ZeroSpeed);
+        analogWrite(enB, ZeroSpeed);
+        digitalWrite(in1, LOW);
+        digitalWrite(in2, LOW);
+        digitalWrite(in3, LOW);
+        digitalWrite(in4, LOW);
+      } else if (message == "B" || message == "b") {
+        // Backward
+        digitalWrite(in1, LOW);
+        digitalWrite(in2, HIGH);
+        digitalWrite(in3, LOW);
+        digitalWrite(in4, HIGH);
+        analogWrite(enA, MotorSpeed1);
+        analogWrite(enB, MotorSpeed2);
+      } else if (message == "L" || message == "l") {
+        // Left turn
+        digitalWrite(in1, HIGH);
+        digitalWrite(in2, LOW);
+        digitalWrite(in3, HIGH);
+        digitalWrite(in4, LOW);
+        analogWrite(enA, 30);   // Reduced speed for left motor
+        analogWrite(enB, 150);  // Full speed for right motor
+      } else if (message == "R" || message == "r") {
+        // Right turn
+        digitalWrite(in1, HIGH);
+        digitalWrite(in2, LOW);
+        digitalWrite(in3, HIGH);
+        digitalWrite(in4, LOW);
+        analogWrite(enA, 150);  // Full speed for left motor
+        analogWrite(enB, 30);   // Reduced speed for right motor
+      } else if (message == "s90") {
+        // Servo to 90 degrees
+        myServo.write(90);
+        delay(15);
+      } else if (message == "s45") {
+        // Servo to 45 degrees
+        myServo.write(45);
+        delay(15);
+      }
+      message = ""; // Reset message after processing
+    }
+  }
+  delay(20);
+}
