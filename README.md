@@ -32,7 +32,6 @@ It integrates mobility and manipulation in one unit — making it ideal for use 
 
 ![Block Diagram](images/block-diagram.png)
 
----
 
 ## 🖼️ Project Images
 
