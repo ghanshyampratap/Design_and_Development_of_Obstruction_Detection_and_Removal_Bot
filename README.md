@@ -2,13 +2,6 @@
 
 An intelligent autonomous robotic system designed to **detect obstacles**, and **pick and place** them if they are within suitable dimensions. This project combines robotic arms, sensors, and navigation to automate material handling in industries and complex environments.
 
----
-
-## 🎯 Aim
-
-To detect obstacles and pick and place them if they fall within suitable dimensions.
-
----
 
 ## 🎯 Objectives
 
@@ -20,8 +13,7 @@ The main objective of developing this robot is to create a **versatile and effic
 - Detect and classify objects using sensors.
 - Pick and place items precisely using a robotic arm.
 - Reduce manual labor and increase safety in hazardous tasks.
-
----
+- 
 
 ## 🧠 Scope
 
@@ -35,7 +27,6 @@ This project covers:
 
 It integrates mobility and manipulation in one unit — making it ideal for use in **industries, disaster zones, farms**, and **hazardous areas**.
 
----
 
 ## 🧱 Block Diagram
 
@@ -49,13 +40,11 @@ It integrates mobility and manipulation in one unit — making it ideal for use 
 ![Side View](images/side-view.jpg)  
 ![Gripper Close-Up](images/gripper.jpg)
 
----
 
 ## 🎬 Video Demonstration
 
 [▶️ Watch Working Demo](https://www.youtube.com/watch?v=your_video_link)
 
----
 
 ## 🧪 Results
 
@@ -68,7 +57,6 @@ It integrates mobility and manipulation in one unit — making it ideal for use 
 - 🤲 Soft gripper securely holds objects without damage.
 - 📈 Improved efficiency, speed, and safety in repetitive industrial tasks.
 
----
 
 ## ⚙️ Technologies Used
 
@@ -81,7 +69,6 @@ It integrates mobility and manipulation in one unit — making it ideal for use 
 | 🛠️ Software        | Arduino IDE                                      |
 | 🖥️ Power Supply    | 5V via USB & external battery module             |
 
----
 
 ## 🚧 Future Enhancements
 
