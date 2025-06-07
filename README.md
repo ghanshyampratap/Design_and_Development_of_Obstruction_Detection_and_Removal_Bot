@@ -30,20 +30,17 @@ It integrates mobility and manipulation in one unit — making it ideal for use 
 
 ## 🧱 Block Diagram
 
-![Block Diagram](![Screenshot 2025-06-07 160937](https://github.com/user-attachments/assets/7e4f4c2b-d7c7-4910-8765-3287f4475b4c)
-)
+(![Screenshot 2025-06-07 160937](https://github.com/user-attachments/assets/7e4f4c2b-d7c7-4910-8765-3287f4475b4c)
 
 
 ## 🖼️ Project Images
 
-![Front View](images/front-view.jpg)  
-![Side View](images/side-view.jpg)  
-![Gripper Close-Up](images/gripper.jpg)
+![image](https://github.com/user-attachments/assets/6ab13b1b-b0ea-41ff-a980-230c0e5e773c)
 
+![image](https://github.com/user-attachments/assets/63ef5a64-7dd5-4804-8736-1e454c910fdf)
+  
+![image](https://github.com/user-attachments/assets/2ca33b86-b6bd-41e6-bae1-748b7031dda5)
 
-## 🎬 Video Demonstration
-
-[▶️ Watch Working Demo](https://www.youtube.com/watch?v=your_video_link)
 
 
 ## 🧪 Results
