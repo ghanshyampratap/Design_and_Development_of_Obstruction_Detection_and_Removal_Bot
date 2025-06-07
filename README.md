@@ -30,7 +30,8 @@ It integrates mobility and manipulation in one unit — making it ideal for use 
 
 ## 🧱 Block Diagram
 
-![Block Diagram](images/block-diagram.png)
+![Block Diagram](![Screenshot 2025-06-07 160937](https://github.com/user-attachments/assets/7e4f4c2b-d7c7-4910-8765-3287f4475b4c)
+)
 
 
 ## 🖼️ Project Images
