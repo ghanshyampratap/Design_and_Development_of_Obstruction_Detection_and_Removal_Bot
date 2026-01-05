@@ -55,7 +55,7 @@ It integrates mobility and manipulation in one unit — making it ideal for use 
 -  Improved efficiency, speed, and safety in repetitive industrial tasks.
 
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 | Component           | Description                                     |
 |------------------   |-------------------------------------------------|
