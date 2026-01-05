@@ -1,4 +1,4 @@
-# 🤖 Design and Development of Obstacle Detection and Pick-and-Place Bot
+# 🤖 Design and Development of Obstacle Detection and Removal Bot
 
 An intelligent autonomous robotic system designed to **detect obstacles**, and **pick and place** them if they are within suitable dimensions. This project combines robotic arms, sensors, and navigation to automate material handling in industries and complex environments.
 
