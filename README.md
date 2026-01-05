@@ -1,13 +1,13 @@
-# 🤖 Design and Development of Obstacle Detection and Removal Bot
+#  Design and Development of Obstacle Detection and Removal Bot
 
 An intelligent autonomous robotic system designed to **detect obstacles**, and **pick and place** them if they are within suitable dimensions. This project combines robotic arms, sensors, and navigation to automate material handling in industries and complex environments.
 
 
-## 🎯 Objectives
+##  Objectives
 
 The main objective of developing this robot is to create a **versatile and efficient solution** for automating **material handling** and **transportation** tasks in various industrial and commercial settings.
 
-### ✅ Key Goals:
+###  Key Goals:
 - Automate material handling processes.
 - Navigate autonomously through messy or unstructured environments.
 - Detect and classify objects using sensors.
@@ -15,25 +15,25 @@ The main objective of developing this robot is to create a **versatile and effic
 - Reduce manual labor and increase safety in hazardous tasks.
   
 
-## 🧠 Scope
+## Scope
 
 This project covers:
-- ⚙️ Mechanical Design
-- 🤖 Robotic Arm Integration
-- 💻 Embedded Systems & Arduino Programming
-- 📡 Obstacle Detection using Sensors
-- 🚗 Autonomous Navigation
-- 🧑‍💻 Human-Machine Interface
+-  Mechanical Design
+-  Robotic Arm Integration
+-  Embedded Systems & Arduino Programming
+-  Obstacle Detection using Sensors
+-  Autonomous Navigation
+-  Human-Machine Interface
 
 It integrates mobility and manipulation in one unit — making it ideal for use in **industries, disaster zones, farms**, and **hazardous areas**.
 
 
-## 🧱 Block Diagram
+##  Block Diagram
 
 ![Screenshot 2025-06-07 160937](https://github.com/user-attachments/assets/7e4f4c2b-d7c7-4910-8765-3287f4475b4c)
 
 
-## 🖼️ Project Images
+##  Project Images
 
 ![image](https://github.com/user-attachments/assets/6ab13b1b-b0ea-41ff-a980-230c0e5e773c)
 
@@ -43,10 +43,10 @@ It integrates mobility and manipulation in one unit — making it ideal for use 
 
 
 
-## 🧪 Results
+##  Results
 
-- ✔️ Efficiently picks and places objects with accuracy.
-- 🌀 Works in messy or crowded environments.
+-  Efficiently picks and places objects with accuracy.
+-  Works in messy or crowded environments.
 - 🕹️ Controlled using joysticks for manual override.
 - ⚙️ DC motors for movement; Servo motors for precision control.
 - 💡 Arduino Uno acts as the main controller.
