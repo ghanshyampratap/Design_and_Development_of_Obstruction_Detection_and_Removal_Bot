@@ -13,7 +13,7 @@ The main objective of developing this robot is to create a **versatile and effic
 - Detect and classify objects using sensors.
 - Pick and place items precisely using a robotic arm.
 - Reduce manual labor and increase safety in hazardous tasks.
-- 
+  
 
 ## 🧠 Scope
 
