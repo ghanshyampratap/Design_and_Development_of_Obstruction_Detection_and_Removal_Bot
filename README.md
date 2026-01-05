@@ -47,33 +47,33 @@ It integrates mobility and manipulation in one unit — making it ideal for use 
 
 -  Efficiently picks and places objects with accuracy.
 -  Works in messy or crowded environments.
-- 🕹️ Controlled using joysticks for manual override.
-- ⚙️ DC motors for movement; Servo motors for precision control.
-- 💡 Arduino Uno acts as the main controller.
-- 🔌 L293D Motor Driver boosts output to drive motors.
-- 🤲 Soft gripper securely holds objects without damage.
-- 📈 Improved efficiency, speed, and safety in repetitive industrial tasks.
+- Controlled using joysticks for manual override.
+-  DC motors for movement; Servo motors for precision control.
+-  Arduino Uno acts as the main controller.
+-  L293D Motor Driver boosts output to drive motors.
+-  Soft gripper securely holds objects without damage.
+-  Improved efficiency, speed, and safety in repetitive industrial tasks.
 
 
 ## ⚙️ Technologies Used
 
 | Component           | Description                                     |
 |------------------   |-------------------------------------------------|
-| 🧠 Microcontroller | Arduino Uno                                      |
-| ⚙️ Motors          | DC Motors (base), Servo Motors (arm)             |
-| 🔌 Motor Driver    | L293D                                            |
-| 🎮 Control         | Joystick Module                                  |
-| 🛠️ Software        | Arduino IDE                                      |
-| 🖥️ Power Supply    | 5V via USB & external battery module             |
+|  Microcontroller | Arduino Uno                                      |
+|  Motors          | DC Motors (base), Servo Motors (arm)             |
+|  Motor Driver    | L293D                                            |
+|  Control         | Joystick Module                                  |
+|  Software        | Arduino IDE                                      |
+|  Power Supply    | 5V via USB & external battery module             |
 
 
-## 🚧 Future Enhancements
+##  Future Enhancements
 
-- 🔋 Add solar or autonomous charging capabilities.
-- 🧠 Integrate AI for smarter object detection.
-- 📦 Increase payload with high-torque motors.
-- 🧭 Add GPS or LiDAR for advanced autonomous navigation.
-- 🤖 Enable fleet coordination with multiple bots.
+-  Add solar or autonomous charging capabilities.
+-  Integrate AI for smarter object detection.
+-  Increase payload with high-torque motors.
+-  Add GPS or LiDAR for advanced autonomous navigation.
+-  Enable fleet coordination with multiple bots.
 
 
-> 💡 *“Automate the future, one pick-and-place at a time.”*
+>  *“Automate the future, one pick-and-place at a time.”*
