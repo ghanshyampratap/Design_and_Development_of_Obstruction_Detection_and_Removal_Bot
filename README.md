@@ -65,8 +65,8 @@ It integrates mobility and manipulation in one unit — making it ideal for use 
 |  Control         | Potentiometer*6                                  |
 |  Software        | Arduino IDE                                      |
 |  Power Supply    |12v for Robotic Arm &  Li-ion cells(3.6*2) with          |
-|                       Breadboard Power Supply Module
-|
+| Breadboard Power Supply Module  provides regulated and stable DC power
+
 
 ##  Future Enhancements
 
