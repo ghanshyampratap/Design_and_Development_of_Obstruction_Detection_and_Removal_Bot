@@ -60,12 +60,13 @@ It integrates mobility and manipulation in one unit — making it ideal for use 
 | Component           | Description                                     |
 |------------------   |-------------------------------------------------|
 |  Microcontroller | Arduino Nano                                     |
-|  Motors          | DC Motors (base), Servo Motors (arm)             |
+|  Motors          | DC Motors (base)*4, Servo Motors (arm)*6             |
 |  Motor Driver    | L293D                                            |
-|  Control         | Joystick Module                                  |
+|  Control         | Potentiometer*6                                  |
 |  Software        | Arduino IDE                                      |
-|  Power Supply    |12v for Robotic Arm &  Li-ion cells(3.6*2)           |
-
+|  Power Supply    |12v for Robotic Arm &  Li-ion cells(3.6*2) with          |
+|                       Breadboard Power Supply Module
+|
 
 ##  Future Enhancements
 
